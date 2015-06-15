@@ -1,0 +1,48 @@
+footer {
+  background-color: #222222;
+	color: #ffffff;
+}
+
+#autor {
+  font-style: normal;
+}
+.offers h4 {
+  font-weight: normal;
+  text-transform: none;
+}
+
+.google-maps {
+  position: relative;
+  padding: 15%; // This is the aspect ratio
+  height: 0;
+	overflow: hidden;
+  max-height:100px;
+}
+
+.google-maps iframe {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#map-canvas {
+	height: 300px;
+  width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#clinica p {
+  font-size:20px; 
+  text-align:justify;
+}
+
+#contactos{
+  color: #ffffff;
+}
+
+#contactos p {
+  font-size: 20px;
+}
